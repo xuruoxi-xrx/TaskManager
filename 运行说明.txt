@@ -1,0 +1,16 @@
+打开方式：
+1. 启动 IntelliJ IDEA，选择 File → Open（文件 → 打开）。
+2. 选择本说明所在的 PythonStarter 文件夹，作为项目打开。
+3. 打开 main.py，右键选择 Run 'main'；也可以选右上角 main 后点击绿色三角。
+4. 看到“IDEA Python 环境测试成功。”和退出代码 0，即运行成功。
+
+本项目已配置独立 Python 3.13.0 环境，pip 已安装。
+解释器位于本文件夹下 .venv\Scripts\python.exe。
+新建 .py 文件后可右键运行。
+
+在 IDEA Terminal 安装第三方库时，请使用本项目解释器：
+.\.venv\Scripts\python.exe -m pip install 库名
+
+系统原来的 python 命令指向 D:\Scripts\python.exe，该入口目前无法正常运行。
+本项目已明确指定独立解释器，运行本项目不依赖该入口。
+不要单独移动本项目或 .venv；虚拟环境和 IDEA 解释器配置包含绝对路径。
